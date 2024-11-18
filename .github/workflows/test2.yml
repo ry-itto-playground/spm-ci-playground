@@ -1,0 +1,24 @@
+name: Test for workspace
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Xcodebuild resolve
+        run: xcodebuild -resolvePackageDependencies -workspace Example.xcworkspace -scheme Example
+        working-directory: ./Example
+
+      - name: Xcodebuild test
+        run: xcodebuild -scheme Example -destination 'platform=iOS Simulator,name=iPhone 15' -workspace Example.xcworkspace test
+        working-directory: ./Example
