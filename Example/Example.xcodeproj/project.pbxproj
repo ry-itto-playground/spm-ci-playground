@@ -198,6 +198,12 @@
 			packageReferences = (
 				E8A641912CEB10BB00BA3696 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
 				E8A641922CEB128F00BA3696 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */,
+				E8A641A22CEB13A700BA3696 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E8A641A32CEB140600BA3696 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				E8A641A42CEB14FA00BA3696 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				E8A641A52CEB152100BA3696 /* XCRemoteSwiftPackageReference "APIKit" */,
+				E8A641A62CEB153100BA3696 /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */,
+				E8A641A72CEB157D00BA3696 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E8A641652CEB104D00BA3696 /* Products */;
@@ -572,6 +578,54 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 11.3.0;
+			};
+		};
+		E8A641A22CEB13A700BA3696 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		E8A641A32CEB140600BA3696 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.1;
+			};
+		};
+		E8A641A42CEB14FA00BA3696 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		E8A641A52CEB152100BA3696 /* XCRemoteSwiftPackageReference "APIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ishkawa/APIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		E8A641A62CEB153100BA3696 /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/line/line-sdk-ios-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.2;
+			};
+		};
+		E8A641A72CEB157D00BA3696 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
