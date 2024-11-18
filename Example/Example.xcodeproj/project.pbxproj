@@ -197,6 +197,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				E8A641912CEB10BB00BA3696 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
+				E8A641922CEB128F00BA3696 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E8A641652CEB104D00BA3696 /* Products */;
@@ -563,6 +564,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.2;
+			};
+		};
+		E8A641922CEB128F00BA3696 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braze-inc/braze-swift-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
