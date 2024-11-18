@@ -1,0 +1,23 @@
+name: Example
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk.git
+    version: 11.5.0
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS.git
+    version: 7.1.0
+  BrazeSDK:
+    url: https://github.com/braze-inc/braze-swift-sdk.git
+    version: 11.3.0
+  LineSDK:
+    url: https://github.com/line/line-sdk-ios-swift.git
+    version: 5.11.2
+  ComposableArchitecture:
+    url: https://github.com/pointfreeco/swift-composable-architecture.git
+    version: 1.16.1
+targets:
+  Example:
+    type: application
+    platform: iOS
+    deploymentTarget: "10.0"
+    sources: [Example]
